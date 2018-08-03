@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "abc",
+    "Type": "abc",
+    "Rating": 5
+  },
+  {
+    "Name": "xyz",
+    "Type": "xyz",
+    "Rating": 1
+  },
+  {
+    "Name": "test",
+    "Type": "test",
+    "Rating": 3
+  }
+]

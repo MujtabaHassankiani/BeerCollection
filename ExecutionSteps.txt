@@ -1,0 +1,40 @@
+API Endpoints:
+
+1. Get All Beers Data:
+http://localhost:64220/api/beer
+
+2. Get Beer Data on basis of name:(It will also work if user only give some letters of name)
+http://localhost:64220/api/beer?name=test
+
+3. Add New Beer:
+Use postman or any other web api testing environment and select post request
+Add this URL
+http://localhost:64220/api/beer
+
+and in body section add this type of json
+{
+    "Name": "testname",
+    "Type": "testtype",
+    "Rating": 5
+}
+
+4. Update Existing Beer on basis of name:
+Use postman or any other web api testing environment and select put request
+Add this URL
+http://localhost:64220/api/beer
+
+and in body section add this type of json
+{
+    "Name": "testname",
+    "Type": "testtype",
+    "Rating": 1
+}
+If this name already exist then it will update rating against given name
+
+5. Delete Existing Beer
+Use postman or any other web api testing environment and select delete request
+Add this URL
+http://localhost:64220/api/beer?name=test
+
+This will delete existing record of name "test".
+
